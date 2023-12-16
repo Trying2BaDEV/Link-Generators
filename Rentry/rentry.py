@@ -49,7 +49,7 @@ def open_or_close(url):
 while True:
     os.system("cls" if os.name == "nt" else "clear")
     print_banner()
-    number_of_attempts = int(input(gratient.purple("[>] Enter the number of attempts (0 = until 1 valid): ")))
+    number_of_attempts = int(input(gratient.purple("[>] Stop when amount is hit: ")))
 
     if number_of_attempts < 0:
         print(gratient.red("[X] The number of attempts must be above 0. Try again."))
