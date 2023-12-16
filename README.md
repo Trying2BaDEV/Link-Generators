@@ -22,3 +22,6 @@ It's easy:
 - Then it wil ask for how many valid URL's will generate
 - Then it will ask if you want to open it in the webbrowser
 - Then it runs.
+
+If you want to open all URL's from the JSON file use the [jsonopener file](https://github.com/Trying2bAHacker/Link-Generators/blob/main/jsonopener.py)
+- Input the path to the successful_urls.json file. (The path needs to look like this: Drive\...\successful_urls.json
