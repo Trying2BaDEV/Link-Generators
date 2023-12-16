@@ -8,14 +8,10 @@ import pygetwindow as gw
 import os
 import time
 from bs4 import BeautifulSoup
+
 os.system("cls" if os.name == "nt" else "clear")
-# Find the active window
 window = gw.getActiveWindow()
-
-# Resize the window
-window.resizeTo(600, 1000)  # You can adjust the desired width and height
-
-# Stay active until the window is closed
+window.resizeTo(600, 1000)
 window.activate()
 
 def print_banner():
