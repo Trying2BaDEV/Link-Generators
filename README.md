@@ -6,4 +6,11 @@ Generate links for fun
 ![image](https://github.com/Trying2bAHacker/Link-Generators/assets/101510520/e0221eee-9935-437a-8d85-db4d786135bc)
 
 
-Generate Paster.so, Pastelink.net and Rentry links for fun and free and discover the internet!
+Generate:
+- [Paster.so](https://github.com/Trying2bAHacker/Link-Generators/blob/main/Paster.so/paster.so.py)
+- [Pastelink.net](https://github.com/Trying2bAHacker/Link-Generators/blob/main/Pastelink.net/Pastelink.py)
+- [Rentry](https://github.com/Trying2bAHacker/Link-Generators/blob/main/Rentry/rentry.py)
+
+links for fun and free and discover the internet!
+
+**Note:** Pastelink takes a long time to find one because of number-letter combinations...
