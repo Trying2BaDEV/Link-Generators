@@ -44,19 +44,22 @@ while True:
     print_banner()
 
     print(gratient.purple("Choose a domain:"))
-    print(gratient.purple("[*] 1. paster.so"))
+    print(gratient.purple("[*] 1. paster.so (currenty doesn't work)"))
     print(gratient.purple(f"[*] 2. rentry.co"))
     
     choice = input(gratient.purple(f"[>] Enter the number of the domain: "))
 
-    if choice == '1':
-        domain = "paster.so"
-        combinations = 4
-    elif choice == '2':
+    #if choice == '1':
+
+        #domain = "paster.so"
+        #combinations = 4
+        #letters = string.ascii_letters
+    if choice == '2':
         domain = "rentry.co"
         combinations = 5
+        letters = string.ascii_lowercase
     else:
-        print(gratient.red("[X] Invalid choice. Please enter 1 or 2."))
+        print(gratient.red("[X] Invalid choice. Please enter 1 (does'nt work or 2."))
         time.sleep(4)
         continue
 
@@ -73,7 +76,7 @@ while True:
 
     while (number_of_attempts == 0 and not successful_urls) or (number_of_attempts > 0 and len(successful_urls) < number_of_attempts):
         link = "https://" + domain + "/"
-        random_end = ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(combinations))
+        random_end = ''.join(random.choice(letters + string.digits) for _ in range(combinations))
         url = link + random_end
 
         if open_or_close(url, open_in_browser):
